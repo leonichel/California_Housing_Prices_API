@@ -2,6 +2,7 @@ import uvicorn
 from fastapi import FastAPI
 import joblib
 import pandas as pd
+import numpy as np
 
 housing = pd.read_csv("https://raw.githubusercontent.com/ageron/handson-ml2/master/datasets/housing/housing.csv")
 
